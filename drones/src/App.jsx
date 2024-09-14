@@ -21,8 +21,13 @@ import VigilanciaSeguridad from "./pages/serviciosConsultoria/VigilanciaSegurida
 import Fumigacion from "./pages/serviciosConsultoria/Fumigacion";
 import MantenimientoRep from "./pages/serviciosConsultoria/MantenimientoRep";
 import Listing from './pages/Listing';
+import Inspeccion from "./pages/serviciosConsultoria/inpecciones/Inspeccion";
 import Homes from "./pages/Homes";
-//import ModalHome from "./components/ModalHome";
+import { Eolicas } from "./pages/serviciosConsultoria/inpecciones/Eolicas";
+import {OilAndGas} from "./pages/serviciosConsultoria/inpecciones/OilAndGas";
+import {Rurales} from "./pages/serviciosConsultoria/inpecciones/Rurales";
+import {Antenas} from "./pages/serviciosConsultoria/inpecciones/Antenas";
+
 
 
 
@@ -52,6 +57,11 @@ export default function App(){
     <Route path="/servicios" element={<ServiciosConsultorias/>}/>
     <Route path="/consultoria" element={<Consultoria/>}/>
     <Route path="/fotogrametria" element={<Fotogrametria/>}/>
+    <Route path="/inspecciones" element={<Inspeccion/>}/>
+    <Route path="/eolicas" element={<Eolicas/>}/>
+        <Route path="/oilandgas" element={<OilAndGas/>}/>
+        <Route path="/antenas" element={<Antenas/>}/>
+         <Route path="/rurales" element={<Rurales/>}/>
     <Route path="/vigilancia" element={<VigilanciaSeguridad/>}/>
     <Route path="/fumigacion" element={<Fumigacion/>}/>
      <Route path="/mantenimiento" element={<MantenimientoRep/>}/>

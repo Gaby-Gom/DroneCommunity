@@ -12,7 +12,7 @@ export default function ModalButton() {
 
   return (
     <main className="">
-      <button className="inline-flex text-white bg-colorBorderHover justify-center items-center text-center w-full lg:w-auto h-12 p-5 mt-10 tracking-tight text-xl hover:bg-orange-600 border border-colorBorderHover rounded-lg transition duration-200" onClick={() => setOpen(true)}>
+      <button className="inline-flex text-white bg-colorBorderHover justify-center items-center text-center w-full lg:w-auto h-12 p-5 mt-10 tracking-tight text-xl hover:bg-orange-600 border border-colorBorderHover rounded-lg transition duration-200 mb-2" onClick={() => setOpen(true)}>
      Enviar
       </button>
 

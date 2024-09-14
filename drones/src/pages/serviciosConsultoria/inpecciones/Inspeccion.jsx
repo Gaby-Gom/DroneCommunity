@@ -1,72 +1,60 @@
 import { Link } from 'react-router-dom';
 import { FaHome } from "react-icons/fa";
 
-const ServiciosConsultorias = () => {
-      const features = [
+const Inspeccion = () => {
+        const features = [
   {
-    title: "Consultoría",
-    href: "/consultoria",
+    title: "WTG Eólicas",
+    href: "/eolicas",
   },
   {
-    title: "Fotogrametría",
-    href: "/fotogrametria",
+    title: "Oil & Gas",
+    href: "/oilandgas",
   },
   {
-    title: "Vigilancia y Seguridad",
-    href: "/vigilancia",
+    title: "Antenas",
+    href: "/antenas",
   },
   {
-    title: "Mantenimiento y Reparación",
-    href: "/mantenimiento",
+    title: "Rurales",
+    href: "/rurales",
   },
   {
-   title:"Fumigación",
-   href: "/fumigacion",
+   title:"Paneles Solares",
+   href: "#",
   },
   {
-   title: "Inspecciones",
-   href: "/inspecciones",
+   title: "Edilicias",
+   href: "#",
   },
   {
-   title: "Filmación y Fotografía",
+   title: "Tendido Eléctrico",
     href: "#",
   },
   {
-   title: "Búsqueda y Rescate",
+   title: "Otros",
    href: "#",
   },
-/*   {
-   title: "IA",
-   href: "#",
-  }, */
-  {
-   title: "Logística",
-   href: "#",
-  },
-  {
-   title: "Detección de gases y particulas en el aire",
-   href: "#",
-  },
+
 ];
- 
-  return (
+  return ( 
      <div className="bg-[#E3F1FC] w-full flex justify-center"> 
         <div className="relative  mt-0 p-10  pt-5 pb-10 w-full lg:w-[1400px] mx-auto">
       <div className="text-center">
         <h2 className="text-3xl text-colorFontPrimary font-semibold sm:text-5xl lg:text-6xl  tracking-wide">
-          Servicios y Consultorías
+         Inspecciones
        
         </h2>
       </div>
         <div className="flex justify-center items-center mx-auto mt-8">
-       <Link to='/'>
+       <Link to='/servicios'>
         <span className="flex items-center text-sm font-bold text-colorBorderHover lg:text-4xl">
-       Menú
+       Menú 
             <FaHome className='lg:text-4xl text-sm ml-2' />
         </span>
         </Link>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5 gap-6 justify-items-center lg:px-56 mt-10 lg:mt-18">
+      <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-4 gap-6 justify-items-center lg:px-56 mt-10 lg:mt-18">
         {features.map((feature, index) => {
           // Clases para modo responsive
           const responsiveBgColorClass = index % 2 === 0 ? 'bg-colorDashoard' : 'bg-colorDashoardAlt';
@@ -105,6 +93,7 @@ const ServiciosConsultorias = () => {
     </div>
     </div>
    
-  );
+  )
 };
-export default ServiciosConsultorias;
+
+export default Inspeccion

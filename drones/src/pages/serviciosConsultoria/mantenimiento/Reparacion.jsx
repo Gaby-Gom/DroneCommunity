@@ -1,15 +1,15 @@
 import { FaHome } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
-const mantenimientoRep = () => {
+const Reparacion = () => {
         const features = [
   {
-    title: "Mantenimiento",
-    href: "/mantenimientoMenu",
+    title: "Multirotor",
+    href: "/multirotor",
   },
   {
-    title: "Reparación",
-    href: "/reparacion",
+    title: "Ala Fija",
+    href: "/alafija",
   },
  
 
@@ -27,14 +27,14 @@ const mantenimientoRep = () => {
         <div className="relative  mt-0   pt-5  w-full lg:w-[1400px] mx-auto">
       <div className="text-center">
         <h2 className="text-3xl text-colorFontPrimary font-semibold sm:text-5xl lg:text-6xl  tracking-wide">
-  Mantenimiento y Reparación 
+ Reparación 
        
         </h2>
       </div>
       </div> 
   
   <div className="flex justify-center items-center mx-auto mt-8">
-       <Link to='/servicios'>
+       <Link to='/mantenimiento'>
         <span className="flex items-center text-sm font-bold text-colorBorderHover lg:text-4xl">
        Menú 
             <FaHome className='lg:text-4xl text-sm ml-2' />
@@ -83,4 +83,4 @@ const mantenimientoRep = () => {
   )
 }
 
-export default mantenimientoRep
+export default Reparacion

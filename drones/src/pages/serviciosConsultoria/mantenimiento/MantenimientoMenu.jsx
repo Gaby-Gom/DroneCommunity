@@ -13,23 +13,30 @@ const MantenimientoMenu = () => {
   },
    {
     title: "Mantenimiento Preventivo",
-    href: "#",
+    href: "/reparacion",
   },
  
  
 
 ];
   return (
-   <div className="bg-white w-full h-full flex flex-col items-center overflow-auto p-4 lg:p-10">
-  
-  <div className="bg-sky-200 w-full justify-center items-start p-4 lg:pl-10 border rounded-xl">
+     <div className="bg-white w-full h-full flex flex-col items-center overflow-auto p-4 lg:p-10">
+          <div className="bg-sky-200 w-full justify-center items-start p-4 lg:pl-10 border rounded-xl">
     <h1 className="font-bold uppercase mx-2 p-2 text-2xl md:text-3xl lg:text-4xl text-left">
       Servicios y Consultorías
     </h1>
     <h2 className="font-bold text-xl md:text-2xl lg:text-3xl mx-2 p-2 text-blue-600 text-left">
-    Mantenimiento y Reparación
+   Mantenimiento y Reparación 
     </h2>
-  </div>     
+  </div> 
+        <div className="relative  mt-0   pt-5  w-full lg:w-[1400px] mx-auto">
+      <div className="text-center">
+        <h2 className="text-3xl text-colorFontPrimary font-semibold sm:text-5xl lg:text-6xl  tracking-wide">
+   Mantenimiento
+       
+        </h2>
+      </div>
+      </div> 
   
   <div className="flex justify-center items-center mx-auto mt-8">
        <Link to='/servicios'>

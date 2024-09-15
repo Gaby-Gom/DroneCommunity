@@ -1,8 +1,8 @@
 
-import UploadFile from "../../components/Servicios y Consultoria/UploadFile";
-import ModalButton from "../../components/ModalButton";
+import UploadFile from "../../../components/Servicios y Consultoria/UploadFile";
+import ModalButton from "../../../components/ModalButton";
 
-const Fumigacion = () => {
+const AlaFijaA = () => {
   return (
    
 <div className="bg-white w-full h-full flex flex-col items-center overflow-auto p-4 lg:p-10">
@@ -12,13 +12,13 @@ const Fumigacion = () => {
       Servicios y Consultorías
     </h1>
     <h2 className="font-bold text-xl md:text-2xl lg:text-3xl mx-2 p-2 text-blue-600 text-left">
-   Fumigación
+ M y R - Reparacion - Ala Fija  A
     </h2>
   </div>     
   
   <div className="mt-2 w-full flex flex-col items-center">
     <div className="flex flex-wrap justify-center items-center w-full">
-      
+     
       {/* Contenedor para alinear SevSolicitados, Gsd y UploadFile en una línea */}
       <div className="flex flex-col lg:flex-row justify-center items-center w-full lg:mr-5">
         <h6 className="m-5 font-bold h-6 mt-3 text-colorFontPrimary text-xs leading-8 uppercase">
@@ -61,4 +61,4 @@ const Fumigacion = () => {
   )
 }
 
-export default Fumigacion
+export default AlaFijaA

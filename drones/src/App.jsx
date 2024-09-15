@@ -29,6 +29,11 @@ import {Rurales} from "./pages/serviciosConsultoria/inpecciones/Rurales";
 import {Antenas} from "./pages/serviciosConsultoria/inpecciones/Antenas";
 import MantenimientoMenu from "./pages/serviciosConsultoria/mantenimiento/MantenimientoMenu";
 import PlanMantenimiento from "./pages/serviciosConsultoria/mantenimiento/PlanMantenimiento";
+import Reparacion from "./pages/serviciosConsultoria/mantenimiento/Reparacion";
+import Multirotor from "./pages/serviciosConsultoria/mantenimiento/Multirotor";
+import AlaFija from "./pages/serviciosConsultoria/mantenimiento/AlaFija";
+import AlaFijaA from "./pages/serviciosConsultoria/mantenimiento/AlaFijaA";
+import MultirotorA from "./pages/serviciosConsultoria/mantenimiento/MultirotoA";
 
 
 
@@ -68,6 +73,11 @@ export default function App(){
     <Route path="/fumigacion" element={<Fumigacion/>}/>
      <Route path="/mantenimiento" element={<MantenimientoRep/>}/>
       <Route path="/mantenimientoMenu" element={<MantenimientoMenu/>}/>
+         <Route path="/reparacion" element={<Reparacion/>}/>
+          <Route path="/multirotor" element={<Multirotor/>}/>
+             <Route path="/alafija" element={<AlaFija/>}/>
+             <Route path="/alafijaA" element={<AlaFijaA/>}/>
+             <Route path="/multirotorA" element={<MultirotorA/>}/>
        <Route path="/planMantenimiento" element={<PlanMantenimiento/>}/>
     <Route path="/data" element={<ParentComponent/>}/>
     </Route>

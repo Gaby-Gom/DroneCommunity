@@ -19,7 +19,7 @@ import Consultoria from "./pages/serviciosConsultoria/Consultoria";
 import Fotogrametria from "./pages/serviciosConsultoria/Fotogrametria";
 import VigilanciaSeguridad from "./pages/serviciosConsultoria/VigilanciaSeguridad";
 import Fumigacion from "./pages/serviciosConsultoria/Fumigacion";
-import MantenimientoRep from "./pages/serviciosConsultoria/MantenimientoRep";
+import MantenimientoRep from "./pages/serviciosConsultoria/mantenimiento/MantenimientoRep";
 import Listing from './pages/Listing';
 import Inspeccion from "./pages/serviciosConsultoria/inpecciones/Inspeccion";
 import Homes from "./pages/Homes";
@@ -27,6 +27,8 @@ import { Eolicas } from "./pages/serviciosConsultoria/inpecciones/Eolicas";
 import {OilAndGas} from "./pages/serviciosConsultoria/inpecciones/OilAndGas";
 import {Rurales} from "./pages/serviciosConsultoria/inpecciones/Rurales";
 import {Antenas} from "./pages/serviciosConsultoria/inpecciones/Antenas";
+import MantenimientoMenu from "./pages/serviciosConsultoria/mantenimiento/MantenimientoMenu";
+import PlanMantenimiento from "./pages/serviciosConsultoria/mantenimiento/PlanMantenimiento";
 
 
 
@@ -65,6 +67,8 @@ export default function App(){
     <Route path="/vigilancia" element={<VigilanciaSeguridad/>}/>
     <Route path="/fumigacion" element={<Fumigacion/>}/>
      <Route path="/mantenimiento" element={<MantenimientoRep/>}/>
+      <Route path="/mantenimientoMenu" element={<MantenimientoMenu/>}/>
+       <Route path="/planMantenimiento" element={<PlanMantenimiento/>}/>
     <Route path="/data" element={<ParentComponent/>}/>
     </Route>
 

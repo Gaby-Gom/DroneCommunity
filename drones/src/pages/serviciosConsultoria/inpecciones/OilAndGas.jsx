@@ -126,7 +126,8 @@ export const OilAndGas = () => {
 </div> 
     
 
-    <div className="flex flex-row   justify-center items-center w-full">
+    <div className="flex flex-col lg:flex-row justify-center items-center">
+    
         <h6 className="m-5 font-bold h-6 mt-3 text-colorFontPrimary text-xs leading-8 uppercase">Tipo de Inspección</h6>
         <div className="bg-white my-2 p-1 flex border border-gray-200 rounded">
           <select
@@ -137,6 +138,7 @@ export const OilAndGas = () => {
             <option  className="text-black cursor-pointer text-center" value="Externa">Externa</option>
           </select>
         </div>
+        
              <div className="flex flex-row  justify-center items-center mx-10">
           <h6 className="m-5 font-bold h-6 mt-3 text-colorFontPrimary text-xs leading-8 uppercase">Visual</h6>
           <div className="bg-white my-2 p-1 flex border border-gray-200 rounded">

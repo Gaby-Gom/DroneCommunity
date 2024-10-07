@@ -67,8 +67,8 @@ const Slider = () => {
           <>
             <img src={slide.image} alt="Img-slide" className="w-full  object-cover" />
             <div className="content ">
-              <h1 className="text-2xl md:text-5xl xl:text-7xl text-white text-center sm:text-center font-bold xl:leading-[4.5rem] uppercase">{slide.heading}</h1>
-              <p className="text-white text-center sm:text-center lg:text-2xl md:text-xl text-sm px-4 lg:px-0">{slide.desc}</p>
+              <h1 className="text-2xl md:text-4xl xl:text-6xl text-white text-center sm:text-center font-bold xl:leading-[4.5rem] uppercase">{slide.heading}</h1>
+              <p className="text-white text-center sm:text-center lg:text-2xl md:text-[15px] text-sm px-4 lg:px-0">{slide.desc}</p>
               <hr />
               <div className="flex flex-col items-center gap-4">
                 <Link to="/register" className="justify-center items-center">

@@ -30,7 +30,7 @@ export default function Header() {
         <Link to='/'>
            
          
-             <img className="lg:h-[80px] lg:w-[80px] h-[50px] w-[50px] mr-2 z-40" src="/logoModif.jpg" alt="Logo" /> 
+             <img className="lg:h-[100px] lg:w-[100px] h-[50px] w-[50px] mr-2 z-40" src="/logoScelu.svg" alt="Logo" /> 
     
         </Link> 
         <form
@@ -54,7 +54,7 @@ export default function Header() {
               Home
             </li>
           </Link>
-          <Link to='/about'>
+          <Link to='/'>
             <li className='hidden sm:inline text-slate-700 hover:underline'>
               About
             </li>

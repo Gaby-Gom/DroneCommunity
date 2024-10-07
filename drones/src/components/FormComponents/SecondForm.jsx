@@ -1,4 +1,4 @@
-const SecondForm = ({ formValues, onChange,option }) => {
+/* const SecondForm = ({ formValues, onChange,option }) => {
   return (
    <div className="w-full max-w-sm mx-auto">
   <form className="bg-white shadow-md px-8 pt-6 pb-8 mb-4 rounded-md">
@@ -201,4 +201,4 @@ const SecondForm = ({ formValues, onChange,option }) => {
   );
 };
 
-export default SecondForm;
+export default SecondForm; */

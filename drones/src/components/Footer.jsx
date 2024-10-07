@@ -101,7 +101,7 @@ const resourcesLinks = [
     
         <div className=" lg:flex justify-center items-center mt-2 hidden">
           <Link to='/'>       
-             <img className="h-24 w-24  mr-2 " src="/logoModif.jpg" alt="Logo Drone Community" />
+             <img className="h-28 w-28  mr-2 " src="/LogoCompleto.svg" alt="Logo Drone Community" />
             </Link>
             </div>
 

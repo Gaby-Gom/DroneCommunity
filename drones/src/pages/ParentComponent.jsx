@@ -1,4 +1,4 @@
-import { useState } from "react";
+/* import { useState } from "react";
 import FirstForm from "../components/FormComponents/FirstForm";
 import SecondForm from "../components/FormComponents/SecondForm";
 import ThirdForm from "../components/FormComponents/ThirdForm.jsx";
@@ -69,12 +69,6 @@ const ParentComponent = () => {
     }
   };
 
- /*  const states = [
-       { id: "0", name: "Mendoza" },
-    { id: "1", name: "Misiones" },
-    { id: "2", name: "Salta" },
-    { id: "3", name: "La Pampa" },
-  ]; */
  
   
 
@@ -234,4 +228,4 @@ const ParentComponent = () => {
   );
 };
 
-export default ParentComponent;
+export default ParentComponent; */

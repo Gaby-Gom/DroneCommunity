@@ -13,7 +13,7 @@ import Search from './pages/Search';
 import Footer from "./components/Footer";
 //import Modal from "./components/Modal";
 import Registrar from "./pages/Registrar";
-import ParentComponent from "./pages/ParentComponent";
+//import ParentComponent from "./pages/ParentComponent";
 import ServiciosConsultorias from "./pages/ServiciosConsultorias";
 import Consultoria from "./pages/serviciosConsultoria/Consultoria";
 import Fotogrametria from "./pages/serviciosConsultoria/Fotogrametria";
@@ -79,7 +79,7 @@ export default function App(){
              <Route path="/alafijaA" element={<AlaFijaA/>}/>
              <Route path="/multirotorA" element={<MultirotorA/>}/>
        <Route path="/planMantenimiento" element={<PlanMantenimiento/>}/>
-    <Route path="/data" element={<ParentComponent/>}/>
+    {/* <Route path="/data" element={<ParentComponent/>}/> */}
     </Route>
 
   </Routes>

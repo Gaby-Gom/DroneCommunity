@@ -333,17 +333,6 @@ export default function Detail() {
           }}
           placeHolder="Seleccionar País"
         />
-              {/*   <select
-                  onChange={handleChange}
-                  value={userData['country'] || ''}
-                  id="country"
-                  name="country"
-                  className="p-1 px-2 appearance-none outline-none w-full text-colorFontPrimary"
-                >
-                  <option value="Argentina">Argentina</option>
-                  <option value="Uruguay">Uruguay</option>
-                </select> */}
-              {/* </div> */}
             </div>
              <div>
               <div className="font-bold h-6 mt-3 text-colorFontSecondary text-xs leading-8 uppercase">Provincia<span className="text-xl text-red-600">*</span></div>
@@ -355,18 +344,7 @@ export default function Detail() {
           }}
           placeHolder="Seleccionar Provincía"
         />
-                {/* <select
-                  onChange={handleChange}
-                  value={userData['city'] || ''}
-                  id="city"
-                  name="city"
-                  className="p-1 px-2 appearance-none outline-none w-full text-colorFontPrimary"
-                >
-                  <option value="Salta">Salta</option>
-                  <option value="Chubut">Chubut</option>
-                </select> */}
-              {/* </div> */}
-            </div>
+                   </div>
                     <div>
               <div className="font-bold h-6 mt-3 text-colorFontSecondary text-xs leading-8 uppercase">Ciudad<span className="text-xl text-red-600">*</span></div>
             <CitySelect

@@ -1,4 +1,4 @@
-import { FaRegCheckCircle } from "react-icons/fa";
+/* import { FaRegCheckCircle } from "react-icons/fa";
 
 const FourForm = ({ onChange, formValues }) => {
   const pricingOptions = [
@@ -83,4 +83,4 @@ const FourForm = ({ onChange, formValues }) => {
 
   
 
-export default FourForm;
+export default FourForm; */

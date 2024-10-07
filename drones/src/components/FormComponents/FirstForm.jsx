@@ -1,5 +1,5 @@
 
-const FirstForm = ({ formValues, onChange, option }) => {
+/* const FirstForm = ({ formValues, onChange, option }) => {
   return (
     <div className="w-full bg-sky-400">
       <form className="bg-white shadow-md px-24 pt-10 pb-10 mb-8 rounded-md">
@@ -144,4 +144,4 @@ const FirstForm = ({ formValues, onChange, option }) => {
 };
 
 export default FirstForm;
- 
+  */
